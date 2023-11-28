@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_StaffProfile.css" />
+    <title>Staff Profile</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        color: #54677c;
+    }
+    
+    body {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #e4e4e4;
+        display: flex;
+        /* Responsive behaviour */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 16px;
+    
+    }
+    .courses-header {
+        position: relative;
+        height: 50vh;
+        overflow: hidden;
+      }
+      
+    
+    .card {
+        position: relative;
+        width: 300px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+        padding: 16px;
+        margin:  56px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+        0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-image img {
+        width: 100%;
+        transform: scale(1.2);
+    }
+    
+    p {
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    
+    .name {
+        margin-top: 80px;
+        font-size: 1.4em;
+        color: #333;
+        font-weight: bold;
+        letter-spacing: 0.8px;
+        margin-bottom: 8px;
+    }
+</style>
+  </head>
+  <body>
+    <header class="courses-header">
+      <div class="header-content">
+        <img
+          src="comScience_logo.png"
+          alt="CS Department Logo"
+          class="logo"
+        />
+        <h1>STAFF PROFILE</h1>
+      </div>
+    </header>
+
+    <nav class="courses-nav">
+      <ul>
+        <li><a href="Home.html" class="active">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Faculty.html">Faculty</a></li>
+        <li><a href="Research.html">Research</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Staff.html">Staff Profile</a></li>
+        <li><a href="StudentsProject.html">StudentsProject</a></li>
+        <li><a href="resource.html">Resources</a></li>
+        <li><a href="">Alumni</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="card">
+      <div class="card-image">
+        <img src="Mark.jpg" alt="Profile image" />
+      </div>
+      <p class="name">Mark Atta Mensah</p>
+      <p>Database and Artificial-intelligence</p>
+      <p>
+        Mark Atta Mensah has been teaching Database Fundamentals and Java
+        Programming, and I am adding Artificial Intelligence and Machine
+        Learning with Java.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="Ferdihnand.jpg" alt="Profile image" />
+      </div>
+      <p class="name">Ferdinand Apietu Katsriku</p>
+      <p>Introduction to Computer Science</p>
+      <p>
+        Ferdinand Apietu Katsriku has been teaching Introduction to Computer
+        Science and some other courses to give more training and skills to the
+        student
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="istock.jpg" alt="Profile image" />
+      </div>
+      <p class="name">Aziz Dwoumfour</p>
+      <p>Digital And Logic Circuit Design And Hardware</p>
+      <p>
+        has been lecturing at the University of Ghana since 2010 and he teaching
+        Hardware and Digital and Logic circuit Design. || CEO, ZIZI FOUNDATION
+        GHANA
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="SOLI.jpg" alt="Profile image" />
+      </div>
+      <p class="name">Dr Soli</p>
+      <p>Web development and mobile app development</p>
+      <p>
+        Lecturer at University of Ghana and teaches web development course .
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="paul.830a8db989ed5598c07d.jpg" alt="Profile image" />
+      </div>
+      <p class="name">Nii Tachie Ammah</p>
+      <p>BACK-END DEVELOPER</p>
+      <p>
+        He has been lecturing at the University of Ghana since 2010 and he
+        teaches ll back-end courses in the university.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <img src="Dr Jamal Deen Abdulai.jpg" alt="Profile image" />
+      </div>
+      <p class="name">HOD OF THE DEPARRTMENT</p>
+      <p>The head of department</p>
+      <p>
+        He has been lecturing at the University of Ghana since 2010 and he
+        introduced the web development course to the school.
+      </p>
+    </div>
+  </body>
+</html>
